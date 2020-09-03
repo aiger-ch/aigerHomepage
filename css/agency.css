@@ -7,7 +7,7 @@
  :root {
   --main-color:#fe3636;
   --hover-color:#ff0000;
-  --btn-color:##ff0f0f;
+  --btn-color:#ff0f0f;
 }
 /* :root {
   --main-color:#fed136;
@@ -237,6 +237,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading {
+  color:black;
+  /* color: var(--main-color); */
   margin: 15px 0;
   text-transform: none;
 }
